@@ -10,3 +10,4 @@ echo "please enter password for person 1:"
 
 read -s password1
 
+read password
