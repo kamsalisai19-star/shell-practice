@@ -1,6 +1,0 @@
-#!/bin/bash
-# This is a comment. It is ignored by the shell.
-echo "Hello, sai!"
-echo "Welcome"
-
-echo "iam new to this."
