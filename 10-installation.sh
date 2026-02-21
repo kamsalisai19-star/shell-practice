@@ -20,3 +20,20 @@ else
 
 fi
 
+dnf install mysql -y
+
+if [ $? -ne 0 ] than
+    echo "installing Mysql ... FAILURE"
+    exit 1
+else
+    echo "installing Mysql ... SUCCESS"
+fi
+
+dnf install nodejs -y
+
+if [ $? -ne 0 ] than
+    echo "installing nodejs ... FAILURE"
+    exit 1
+else
+    echo "installing nodejs ... SUCCESS"
+fi
